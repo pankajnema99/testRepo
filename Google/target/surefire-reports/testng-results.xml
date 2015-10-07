@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[The first name entered as:- pankaj]]>
+    </line>
+    <line>
+      <![CDATA[The last name entered as:- nema]]>
+    </line>
+    <line>
+      <![CDATA[The password entered as:- pankajkumarnema]]>
+    </line>
+    <line>
+      <![CDATA[The confirmation password entered as:- pankajkumarnema]]>
+    </line>
+    <line>
+      <![CDATA[The month is selected from the list is:-March]]>
+    </line>
+    <line>
+      <![CDATA[The date entered as:- 4]]>
+    </line>
+    <line>
+      <![CDATA[The year entered as:- 2015]]>
+    </line>
+    <line>
+      <![CDATA[The gender is selected from the list is:-Male]]>
+    </line>
+    <line>
+      <![CDATA[The phone number entered as:- +917204353964]]>
+    </line>
+    <line>
+      <![CDATA[The current email address entered as:- aaa@cox.com]]>
+    </line>
+    <line>
+      <![CDATA[The location is selected from the list is:-United Kingdom]]>
+    </line>
+    <line>
+      <![CDATA[Click on the 'Next Step' button successfully]]>
+    </line>
+    <line>
+      <![CDATA[The error message displayed as:- You can't leave this empty.]]>
+    </line>
+  </reporter-output>
+  <suite name="Regression" duration-ms="20445" started-at="2015-10-07T09:16:26Z" finished-at="2015-10-07T09:16:47Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="20445" started-at="2015-10-07T09:16:26Z" finished-at="2015-10-07T09:16:47Z">
+      <class name="testCases.TC001_Validate_User_Name_Error">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testCases.TC001_Validate_User_Name_Error@1690630]" name="beforeMethod" is-config="true" duration-ms="10286" started-at="2015-10-07T14:46:26Z" finished-at="2015-10-07T14:46:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="validateErrorMessage()[pri:0, instance:testCases.TC001_Validate_User_Name_Error@1690630]" name="validateErrorMessage" duration-ms="9691" started-at="2015-10-07T14:46:36Z" finished-at="2015-10-07T14:46:46Z">
+          <reporter-output>
+            <line>
+              <![CDATA[The first name entered as:- pankaj]]>
+            </line>
+            <line>
+              <![CDATA[The last name entered as:- nema]]>
+            </line>
+            <line>
+              <![CDATA[The password entered as:- pankajkumarnema]]>
+            </line>
+            <line>
+              <![CDATA[The confirmation password entered as:- pankajkumarnema]]>
+            </line>
+            <line>
+              <![CDATA[The month is selected from the list is:-March]]>
+            </line>
+            <line>
+              <![CDATA[The date entered as:- 4]]>
+            </line>
+            <line>
+              <![CDATA[The year entered as:- 2015]]>
+            </line>
+            <line>
+              <![CDATA[The gender is selected from the list is:-Male]]>
+            </line>
+            <line>
+              <![CDATA[The phone number entered as:- +917204353964]]>
+            </line>
+            <line>
+              <![CDATA[The current email address entered as:- aaa@cox.com]]>
+            </line>
+            <line>
+              <![CDATA[The location is selected from the list is:-United Kingdom]]>
+            </line>
+            <line>
+              <![CDATA[Click on the 'Next Step' button successfully]]>
+            </line>
+            <line>
+              <![CDATA[The error message displayed as:- You can't leave this empty.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateErrorMessage -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testCases.TC001_Validate_User_Name_Error@1690630]" name="afterMethod" is-config="true" duration-ms="453" started-at="2015-10-07T14:46:46Z" finished-at="2015-10-07T14:46:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testCases.TC001_Validate_User_Name_Error -->
+    </test> <!-- Test -->
+  </suite> <!-- Regression -->
+</testng-results>
